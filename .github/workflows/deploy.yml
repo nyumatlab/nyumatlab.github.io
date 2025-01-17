@@ -28,6 +28,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add out
+          git add -f out  # Force add the out directory
           git commit -m "Deploy to GitHub Pages" || echo "No changes to commit"
           git push --force "https://${{ secrets.GITHUB_TOKEN }}@github.com/nyumatlab/nyumatlab.github.io.git" main:gh-pages
