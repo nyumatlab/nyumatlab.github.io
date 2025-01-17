@@ -1,1 +1,2 @@
-# NYU@MATLAB Official Website
+# MATLAB@NYU Official Website
+### by Christopher Lanuza
