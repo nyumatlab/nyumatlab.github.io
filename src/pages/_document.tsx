@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" href="/images/mathworks-logo.png" />
+        <link rel="icon" href="/mathworks-logo.png" />
       </Head>
       <body className="antialiased">
         <Main />
