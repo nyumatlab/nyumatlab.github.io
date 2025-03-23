@@ -1,9 +1,12 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
+import EventPopup from "../components/EventPopup";
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <Layout>
+      <EventPopup />
       <div className="bg-nyu-white">
         {/* Hero Section */}
         <div className="relative bg-nyu-purple py-20">
@@ -31,12 +34,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex-shrink-0 ml-8">
-              <img
-                src="/images/matlab-logo-animation.gif" 
-                alt="MATLAB Animation"
-                className="rounded-lg shadow-md"
-                style={{ maxWidth: '300px' }} // adjust size and make gif background transparent
-              />
+              <Image src="/images/matlab-logo-animation.gif" alt="MATLAB Animation" className="rounded-lg shadow-md" width={300} height={300} />
             </div>
           </div>
         </div>
