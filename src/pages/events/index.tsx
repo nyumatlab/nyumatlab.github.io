@@ -26,7 +26,7 @@ export default function Events() {
                 Don&apos;t miss this opportunity to enhance your DSP skills! 
               </p>
               <a 
-                href="https://mathworksmeeting.webex.com/webappng/sites/mathworksmeeting/meeting/register/3a6ce58438b64a1791a0bd39739aa5b7?ticket=4832534b000000077b2131dcf3fba6737cc907cff06f6e852700e36124859e0b3a6517ddbf5e422a&timestamp=1742702017954&RGID=rd31b809cd850a68a97050e347a83f23f"
+                href="https://mathworksmeeting.webex.com/webappng/sites/mathworksmeeting/meeting/register/3a6ce58438b64a1791a0bd39739aa5b7?ticket=4832534b00000007f92bd4ebbc32ba06d23da88af27c1a3992b8fabb00f6c1c059a9b0548f93259c&timestamp=1742871275717&RGID=rd31b809cd850a68a97050e347a83f23f&isAutoPopRegisterForm=false"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-nyu-purple text-white px-6 py-3 rounded-md font-medium hover:bg-purple-700 transition-colors"
