@@ -10,7 +10,7 @@ export default function Events() {
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
           <h2 className="text-2xl font-bold text-nyu-purple mb-4">Digital Signal Processing Webinar</h2>
           <p className="text-lg text-gray-700 mb-6">
-            Join us on April 10th for an exciting webinar on Digital Signal Processing with Dr. Eric Tarr!
+          A DSP seminar led by Professor Eric Tarr, author of “Hack Audio”, offering students in Acoustics, Audio Engineering, Music Technology, and related STEM fields hands-on experience with MATLAB and Simulink for implementing real-time audio processing techniques.
           </p>
           
           <div className="flex flex-col md:flex-row items-center gap-8">
@@ -37,16 +37,14 @@ export default function Events() {
             
             <div className="flex flex-col items-center space-y-4">
               <Image 
-                src="/images/dsp-webinar/qr-code.png"
+                src="/images/dsp-webinar/dsp-qr-code.png"
                 alt="Event Registration QR Code"
-                width={250}
-                height={250}
-                className="w-96 h-96 object-contain border-2 border-gray-200 p-4 rounded-lg shadow-md"
+                width={300}
+                height={300}
+                className="object-contain border-2 border-gray-200 p-4 rounded-lg shadow-md"
                 priority={true}
+                unoptimized={true}
               />
-              <p className="text-sm text-gray-600 text-center">
-                Join us for the DSP Webinar on April 10th! Don&apos;t miss it.
-              </p>
             </div>
           </div>
         </div>
