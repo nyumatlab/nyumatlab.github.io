@@ -1,12 +1,14 @@
+// Event Popup is used to display upcoming events or announcements related to MATLAB at NYU.
+
 import Layout from "../components/Layout";
 import Link from "next/link";
-import EventPopup from "../components/EventPopup";
+// import EventPopup from "../components/EventPopup";
 import Image from 'next/image';
 
 export default function Home() {
   return (
     <Layout>
-      <EventPopup />
+      {/* <EventPopup /> */}
       <div className="bg-nyu-white">
         {/* Hero Section */}
         <div className="relative bg-nyu-purple py-20">

@@ -1,3 +1,5 @@
+// Added new sections at the top with the embedded video and event details
+
 import Layout from "../../components/Layout";
 import Image from 'next/image';
 
@@ -5,12 +7,38 @@ export default function Events() {
   return (
     <Layout>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-4xl font-bold text-nyu-purple mb-8">Upcoming Events</h1>
+        <h1 className="text-4xl font-bold text-nyu-purple mb-8">Events</h1>
         
+        {/* New Video Section */}
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
-          <h2 className="text-2xl font-bold text-nyu-purple mb-4">Digital Signal Processing Webinar</h2>
+          <h2 className="text-2xl font-bold text-nyu-purple mb-4">Digital Signal Processing Webinar Recording</h2>
           <p className="text-lg text-gray-700 mb-6">
-          A DSP seminar led by Professor Eric Tarr, author of “Hack Audio”, offering students in Acoustics, Audio Engineering, Music Technology, and related STEM fields hands-on experience with MATLAB and Simulink for implementing real-time audio processing techniques.
+            Watch the recording of our DSP seminar led by Professor Eric Tarr, author of "Hack Audio". 
+            This session provides hands-on experience with MATLAB and Simulink for implementing real-time 
+            audio processing techniques.
+          </p>
+          
+          <div className="aspect-w-16 aspect-h-9 mb-6">
+            <iframe 
+              className="w-full h-[500px] rounded-lg shadow-md"
+              src="https://www.youtube.com/embed/8PJCBQRIG_M" 
+              title="Digital Signal Processing Webinar"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen
+            ></iframe>
+          </div>
+          
+          <p className="text-gray-700 mt-4">
+            This webinar covers essential DSP concepts and practical applications using MATLAB, 
+            perfect for students in Acoustics, Audio Engineering, Music Technology, and related STEM fields.
+          </p>
+        </div>
+        
+        {/* Original Event Section - keep for reference or mark as past event */}
+        <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+          <h2 className="text-2xl font-bold text-nyu-purple mb-4">Past Event: Digital Signal Processing Webinar</h2>
+          <p className="text-lg text-gray-700 mb-6">
+            A DSP seminar led by Professor Eric Tarr, author of "Hack Audio", offering students in Acoustics, Audio Engineering, Music Technology, and related STEM fields hands-on experience with MATLAB and Simulink for implementing real-time audio processing techniques.
           </p>
           
           <div className="flex flex-col md:flex-row items-center gap-8">
@@ -23,16 +51,8 @@ export default function Events() {
                 <li>Duration: 1 hour and 30 minutes</li>
               </ul>
               <p className="text-gray-700">
-                Don&apos;t miss this opportunity to enhance your DSP skills! 
+                This event has concluded. See the recording above!
               </p>
-              <a 
-                href="https://mathworksmeeting.webex.com/webappng/sites/mathworksmeeting/meeting/register/3a6ce58438b64a1791a0bd39739aa5b7?ticket=4832534b00000007f92bd4ebbc32ba06d23da88af27c1a3992b8fabb00f6c1c059a9b0548f93259c&timestamp=1742871275717&RGID=rd31b809cd850a68a97050e347a83f23f&isAutoPopRegisterForm=false"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-nyu-purple text-white px-6 py-3 rounded-md font-medium hover:bg-purple-700 transition-colors"
-              >
-                Register Now
-              </a>
             </div>
             
             <div className="flex flex-col items-center space-y-4">
