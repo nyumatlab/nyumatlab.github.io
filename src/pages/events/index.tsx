@@ -13,7 +13,7 @@ export default function Events() {
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
           <h2 className="text-2xl font-bold text-nyu-purple mb-4">Digital Signal Processing Webinar Recording</h2>
           <p className="text-lg text-gray-700 mb-6">
-            Watch the recording of our DSP seminar led by Professor Eric Tarr, author of "Hack Audio". 
+            Watch the recording of our DSP seminar led by Professor Eric Tarr, author of &ldquo;Hack Audio&rdquo;. 
             This session provides hands-on experience with MATLAB and Simulink for implementing real-time 
             audio processing techniques.
           </p>
@@ -38,7 +38,7 @@ export default function Events() {
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
           <h2 className="text-2xl font-bold text-nyu-purple mb-4">Past Event: Digital Signal Processing Webinar</h2>
           <p className="text-lg text-gray-700 mb-6">
-            A DSP seminar led by Professor Eric Tarr, author of "Hack Audio", offering students in Acoustics, Audio Engineering, Music Technology, and related STEM fields hands-on experience with MATLAB and Simulink for implementing real-time audio processing techniques.
+            A DSP seminar led by Professor Eric Tarr, author of &ldquo;Hack Audio&rdquo;, offering students in Acoustics, Audio Engineering, Music Technology, and related STEM fields hands-on experience with MATLAB and Simulink for implementing real-time audio processing techniques.
           </p>
           
           <div className="flex flex-col md:flex-row items-center gap-8">
